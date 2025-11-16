@@ -1,0 +1,110 @@
+[
+  {
+    "id": "masala-masala",
+    "name": "Masala Masala",
+    "label": "Night Mode",
+    "subtitle": "Moody, bold and perfect for late-night binge sessions.",
+    "description": "A darker, moodier version of our classic masala papad. Deep spice base, slow-burn heat, and a cracking finish.",
+    "ingredients": [
+      "Urad dal flour",
+      "Refined vegetable oil",
+      "Salt",
+      "Red chilli powder",
+      "Coriander powder",
+      "Cumin",
+      "Black pepper",
+      "Acidity regulators (INS 330)"
+    ],
+    "image": "/packs/papad-masala-navy.png",
+    "heat": "Hot",
+    "isHero": false,
+    "accentColor": "#071A30",
+    "bgColor": "#FFE9B3"
+  },
+  {
+    "id": "jeera-pepper",
+    "name": "Jeera Pepper",
+    "label": "Desi Detective",
+    "subtitle": "Smoky jeera and cracked pepper sniffing out flavour.",
+    "description": "Subtle warmth meets aromatic cumin and freshly cracked pepper. A desi classic, reimagined for serious snackers.",
+    "ingredients": [
+      "Urad dal flour",
+      "Refined vegetable oil",
+      "Salt",
+      "Cumin seeds",
+      "Black pepper",
+      "Dry ginger",
+      "Acidity regulators (INS 330)"
+    ],
+    "image": "/packs/papad-jeera-yellow.png",
+    "heat": "Mild",
+    "isHero": false,
+    "accentColor": "#F3B630",
+    "bgColor": "#FFE9B3"
+  },
+  {
+    "id": "thai-sweet-chilli",
+    "name": "Thai Sweet Chilli",
+    "label": "Global Villain",
+    "subtitle": "Sweet heat with a villain-level crunch.",
+    "description": "Tangy, sweet, spicy and completely chaotic—in the best way possible. A global street-food icon turned papad superstar.",
+    "ingredients": [
+      "Urad dal flour",
+      "Refined vegetable oil",
+      "Salt",
+      "Dehydrated garlic",
+      "Chilli flakes",
+      "Sugar",
+      "Acidity regulators (INS 330, INS 296)"
+    ],
+    "image": "/packs/papad-thai-sweet-chilli.png",
+    "heat": "Sweet Heat",
+    "isHero": true,
+    "accentColor": "#D2212F",
+    "bgColor": "#FFE9B3"
+  },
+  {
+    "id": "peri-peri",
+    "name": "Peri Peri",
+    "label": "Spice Rebel",
+    "subtitle": "Smoky peri peri with a full-on flavour riot.",
+    "description": "African-inspired peri peri chilli blend that smokes, sparks and crunches. Bold, punchy and proudly rebellious.",
+    "ingredients": [
+      "Urad dal flour",
+      "Refined vegetable oil",
+      "Salt",
+      "Peri peri spice blend",
+      "Paprika",
+      "Garlic powder",
+      "Onion powder",
+      "Mixed herbs"
+    ],
+    "image": "/packs/papad-peri-peri.png",
+    "heat": "Hot",
+    "isHero": false,
+    "accentColor": "#FF5A36",
+    "bgColor": "#FFE9B3"
+  },
+  {
+    "id": "sour-cream-onion",
+    "name": "Sour Cream & Onion",
+    "label": "Snack Dandy",
+    "subtitle": "Creamy, tangy and totally addictive. The ultimate party papad.",
+    "description": "A smooth and tangy blend inspired by a global snacking legend. Light, creamy and perfectly balanced.",
+    "ingredients": [
+      "Urad dal flour",
+      "Refined vegetable oil",
+      "Salt",
+      "Dehydrated onion",
+      "Milk solids",
+      "Sugar",
+      "Herbs & spices",
+      "Acidity regulators (INS 330)"
+    ],
+    "image": "/packs/papad-sour-cream.png",
+    "heat": "Mild",
+    "isHero": false,
+    "accentColor": "#8FD3FF",
+    "bgColor": "#FFF7EB"
+  }
+]

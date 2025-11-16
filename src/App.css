@@ -1,0 +1,166 @@
+:root {
+  --pink: #ff2e9a;
+  --cyan: #2ee8ff;
+  --cream: #fff7ec;
+  --ink: #0d0d0d;
+  --radius: 18px;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--ink);
+  color: var(--cream);
+  line-height: 1.55;
+}
+
+/* LAYOUT WRAPPER */
+.site {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* NAVBAR */
+.nav {
+  max-width: 1180px;
+  margin: auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-pop {
+  font-family: "Bangers", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  color: var(--pink);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.nav-links a {
+  color: var(--cream);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.nav-cta {
+  background: var(--pink);
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius);
+  color: var(--ink);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* HERO SECTION */
+.hero {
+  max-width: 1180px;
+  margin: 2rem auto;
+  padding: 2.5rem 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.2rem;
+  align-items: center;
+  background: var(--ink)
+    radial-gradient(circle at top right, #2ee8ff22 0%, transparent 60%);
+  border-radius: var(--radius);
+}
+
+.hero h1 {
+  font-family: "Bangers", sans-serif;
+  font-size: clamp(2rem, 5vw, 3.6rem);
+  color: var(--cyan);
+  line-height: 1.05;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  max-width: 420px;
+  opacity: 0.9;
+  margin-bottom: 1.25rem;
+}
+
+.btn-primary {
+  background: var(--cyan);
+  color: var(--ink);
+  border: none;
+  padding: 0.65rem 1.25rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-ghost {
+  background: transparent;
+  border: 2px solid var(--cream);
+  color: var(--cream);
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero-stack img {
+  width: 100%;
+  filter: drop-shadow(0px 8px 14px #00000055);
+}
+
+/* HALFTONE (IMAGE) EFFECT */
+.dot-bg {
+  background-image: radial-gradient(var(--pink) 1px, transparent 1px);
+  background-size: 8px 8px;
+  opacity: 0.14;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+/* FLAVOUR GRID */
+.section-flavours {
+  max-width: 1180px;
+  margin: 3.5rem auto;
+  padding: 0 1.25rem;
+}
+
+.flavour-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.flavour-card {
+  background: #111;
+  border: 1px solid #ffffff18;
+  border-radius: var(--radius);
+  padding: 1.2rem 1rem;
+  text-align: center;
+}
+
+.flavour-card h3 {
+  font-family: "Bangers";
+  font-size: 1.3rem;
+  color: var(--pink);
+  margin-top: 0.6rem;
+}
+
+/* FOOTER */
+.footer {
+  background: #070707;
+  padding: 2rem 1.25rem;
+  text-align: center;
+  color: #aaa;
+  font-size: 0.85rem;
+}
