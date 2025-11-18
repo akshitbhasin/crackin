@@ -1,0 +1,13 @@
+{
+  "email": "hello@crackin.in",
+  "phone": "+91-98765-43210",
+  "addressLine1": "Crackin Foods Pvt. Ltd.",
+  "addressLine2": "Somewhere in New Delhi, India",
+  "addressLine3": "PIN 110001",
+  "socials": {
+    "instagram": "https://instagram.com/crackin",
+    "facebook": "https://facebook.com/crackin",
+    "twitter": "https://x.com/crackin",
+    "linkedin": "https://linkedin.com/company/crackin"
+  }
+}
