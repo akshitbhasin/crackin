@@ -50,7 +50,7 @@ function App() {
         />
       )}
 
-      <ScrollToTopButton theme={theme}/>
+      <ScrollToTopButton theme={theme} />
 
       <Footer theme={theme} />
     </div>

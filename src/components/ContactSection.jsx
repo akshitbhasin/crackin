@@ -22,6 +22,7 @@ import {
   Facebook,
   Twitter,
   Linkedin,
+  MessageCircleHeart,
   Globe,
 } from "lucide-react";
 
@@ -30,6 +31,7 @@ const SOCIAL_ICONS = {
   facebook: Facebook,
   twitter: Twitter,
   linkedin: Linkedin,
+  whatsapp: MessageCircleHeart,
 };
 
 const SOCIAL_LABELS = {
@@ -37,6 +39,7 @@ const SOCIAL_LABELS = {
   facebook: "Facebook",
   twitter: "X / Twitter",
   linkedin: "LinkedIn",
+  whatsapp: "WhatsApp"
 };
 
 function ContactSection({ theme }) {
